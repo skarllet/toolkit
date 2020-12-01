@@ -5,7 +5,7 @@
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "scripts": {
-    "build": "tsc --declarationDir dist/types --declaration true && rollup -c"
+    "build": "tsc --emitDeclarationOnly --declarationDir dist/types --declaration true && rollup -c"
   },
   "repository": {
     "type": "git",
